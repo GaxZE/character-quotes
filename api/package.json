@@ -1,0 +1,22 @@
+{
+  "name": "character-quotes",
+  "version": "1.0.0",
+  "description": "Quotes from a random selection of awesome tv or film characters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaxze/character-quotes.git"
+  },
+  "author": "Gary Hawes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaxze/character-quotes/issues"
+  },
+  "homepage": "https://github.com/gaxze/character-quotes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
