@@ -4,7 +4,7 @@ const port = 5000;
 
 const quotes = require("./quotes");
 
-app.get("/", (req, res) => {
+app.get("/v1/quotes", (req, res) => {
   return res.send(quotes);
 });
 
