@@ -1,0 +1,30 @@
+version: "3.7"
+
+services:
+  client:
+    container_name: client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    volumes:
+      - "./client:/app"
+      - "/app/node_modules"
+    ports:
+      - "3000:3000"
+    tty: true
+    stdin_open: true
+    depends_on:
+      - api
+
+  api:
+    container_name: api
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    volumes:
+      - "./api:/app"
+      - "/app/node_modules"
+    tty: true
+    stdin_open: true
+    ports:
+      - "5000:5000"
