@@ -12,4 +12,8 @@ module.exports = [
       "For the love of God!",
     ],
   },
+  {
+    author: "Raymond Holt",
+    quotes: ["Vindication!"],
+  },
 ];
