@@ -14,6 +14,6 @@ module.exports = [
   },
   {
     author: "Raymond Holt",
-    quotes: ["Vindication!"],
+    quotes: ["Vindication!", "Hot damn!"],
   },
 ];
