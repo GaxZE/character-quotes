@@ -13,7 +13,7 @@ module.exports = [
     ],
   },
   {
-    author: "Raymond Holt",
+    author: "Captain Raymond Holt",
     quotes: ["Vindication!", "Hot damn!"],
   },
 ];
