@@ -11,8 +11,6 @@ services:
       - "/app/node_modules"
     ports:
       - "3000:3000"
-    tty: true
-    stdin_open: true
     depends_on:
       - api
 
@@ -24,7 +22,5 @@ services:
     volumes:
       - "./api:/app"
       - "/app/node_modules"
-    tty: true
-    stdin_open: true
     ports:
       - "5000:5000"
