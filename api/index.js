@@ -5,7 +5,7 @@ const port = 5000;
 // @todo: remove static quotes
 const quotes = require("./quotes");
 
-app.get("/v1/quotes", (req, res) => {
+app.get("quotes", (req, res) => {
   return res.send(quotes);
 });
 
