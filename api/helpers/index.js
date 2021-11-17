@@ -4,7 +4,7 @@ function mustBeInArray(array, author) {
 
       if (!row) {
           reject({
-              message: 'ID is not good',
+              message: 'Author is not good',
               status: 404
           })
       }
