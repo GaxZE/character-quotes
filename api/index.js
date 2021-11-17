@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
-const port = 5000;
 
-// @todo: remove static quotes
-const quotes = require("./quotes");
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(require("./routes/index"));
 
-app.get("/quotes", (req, res) => {
-  return res.send(quotes);
+app.get("/", (req, res) => {
+  res.json({ message: "Hello world" });
 });
 
-app.listen(port, () => console.log(`App listening on port: ${port}`));
+app.listen("5000");

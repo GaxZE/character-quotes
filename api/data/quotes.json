@@ -1,7 +1,7 @@
-module.exports = [
+[
   {
-    author: "Ron Swanson",
-    quotes: [
+    "author": "Ron Swanson",
+    "quotes": [
       "Clear alcohols are for rich women on diets.",
       "Crying: acceptable at funerals and the Grand Canyon.",
       "I call this turf ‘n’ turf. It's a 16 oz T-bone and a 24 oz porterhouse. Also, whiskey and a cigar. I am going to consume all of this at the same time because I am a free American.",
@@ -111,11 +111,11 @@ module.exports = [
       "We have one activity planned: not getting killed.",
       "When I'm done eating a Mulligan's meal, for weeks afterwards, there are flecks of meat in my mustache. And I refuse to clean it because every now and then a piece of meat will fall into my mouth.",
       "Please and thank you."
-    ],
+    ]
   },
   {
-    author: "Dr Cox",
-    quotes: [
+    "author": "Dr Cox",
+    "quotes": [
       "Ladies and gentlemen, allow me to present, Man Not Caring.",
       "I'd say you're about a B-cup, Susan.",
       "Think newbie",
@@ -126,11 +126,11 @@ module.exports = [
       "Oh, my God! I just gagged and vomited at the same time. I gavomited.",
       "I love this moment so much, I want to have sex with it.",
       "Good God in heaven, Newbie. There are just so very many ways for me to say this to you: Never. Not in a million years. Absolutely not. No way, Jose. No chance, Lance. Nyet. Negatori. Mm-mm. Nuh-uh. Uh-uh. And of course, my own personal favorite of all time, man falling off of a cliff. Noooooooooo!"
-    ],
+    ]
   },
   {
-    author: "Captain Raymond Holt",
-    quotes: [
+    "author": "Raymond Holt",
+    "quotes": [
       "Vindication!",
       "Hot damn!",
       "BONE!",
@@ -139,6 +139,6 @@ module.exports = [
       "A bold personality. We know what that's code for. She's a bitch.",
       "If you excuse me, Sergeant Wells. We need to go to the BRB. It's BRB time. We're BRB-ing.",
       "Why is no one having a good time? I specifically requested it."
-    ],
-  },
-];
+    ]
+  }
+]
