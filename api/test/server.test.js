@@ -25,6 +25,6 @@ describe("Run tests", () => {
     const res = await requestWithSupertest.get("/api/v1/quotes");
     expect(res.status).toEqual(200);
     expect(res.type).toEqual(expect.stringContaining("json"));
-    expect(res.body[0].author).toEqual("Ron Swanson");
+    expect(res.body[0]).toHaveProperty("author")
   });
 });
