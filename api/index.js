@@ -9,4 +9,9 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello world" });
 });
 
-app.listen("5000");
+const server = app.listen(5000, () => {
+  const port = server.address().port;
+  console.log("Listening at port %s", port);
+});
+
+module.exports = server;
